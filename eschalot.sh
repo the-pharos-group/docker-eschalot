@@ -58,6 +58,6 @@ while true; do
     esac
 done
 
-eschalot -ct5 -p $SEARCH | tee /tmp/result
+eschalot -vct5 -p $SEARCH | tee /tmp/result
 
 # vim: ts=4 et
