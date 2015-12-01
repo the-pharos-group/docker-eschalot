@@ -1,3 +1,4 @@
+_based on the version from the great guys and girls at ReclaimYourPrivacy and tweaked slightly to make verbose default and with better example usage and building your own docker image instead of downloading one_
 =========================
 Eschalot Docker Container
 =========================
