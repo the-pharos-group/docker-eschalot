@@ -1,12 +1,12 @@
 FROM thingmesh/base:latest
 
-MAINTAINER Lars Boegild Thomsen <lth@reclaim-your-privacy.com>
+MAINTAINER Sci Fith <scfith@riseup.net>
 
 RUN     export DEBIAN_FRONTEND=noninteractive && \
         apt-get -y update && \
         apt-get install -yq git build-essential libssl-dev openssl
 
-RUN	(cd /tmp && git clone https://github.com/ReclaimYourPrivacy/eschalot.git)
+RUN	(cd /tmp && git clone https://github.com/the-pharos-group/eschalot.git)
 
 RUN	mkdir /usr/lib/eschalot
 
