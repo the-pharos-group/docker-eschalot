@@ -38,5 +38,8 @@ iV3pgWc+3pRMnWQt5TEEmF9CXybkHjf3LHLfBPHxU/shg7oIUL7oSEPcqIbR46KK
 PGCqWqYr/5DNF0HuULqrS9OThMKSmn49sBVCEqwEGbslZks=
 -----END RSA PRIVATE KEY-----
 ```
+you could even run it like this:   
+`docker run eschalot-runner -s fucker >> fucker.txt` to append to a local text file the results for safe keeping.
 
+don't forget to kill it by running `docker stop` once you get enough generated.
 
